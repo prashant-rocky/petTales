@@ -2,6 +2,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import '../../assets/style.css';
 import banner1 from "../../assets/images/banner1.webp"
+import banner2 from "../../assets/images/banner2.jpg"
+import banner3 from "../../assets/images/banner3.avif"
 
 // Import required modules
 import { Navigation, Autoplay } from 'swiper/modules';
@@ -33,10 +35,10 @@ const Slider = () => {
                 </a>
             </SwiperSlide>
 
-            <SwiperSlide  style={{backgroundImage: `url(${banner1})`}}>
+            <SwiperSlide  style={{backgroundImage: `url(${banner2})`}}>
                 <a href="/japanese-cats"><h3>Why Japanese Cats Live Longer The Lifestyle<br /> Behind It</h3></a>
             </SwiperSlide>
-            <SwiperSlide  style={{backgroundImage: `url(${banner1})`}}>
+            <SwiperSlide  style={{backgroundImage: `url(${banner3})`}}>
                 <a href="/how-to-train-a-shiba"><h3>How to Train a Shiba Inu A Beginner’s <br /> Guide</h3></a>
             </SwiperSlide>
         </Swiper>
